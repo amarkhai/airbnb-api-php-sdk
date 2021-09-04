@@ -1,0 +1,25 @@
+{
+    "name": "amarkhai/airbnb-api-php-sdk",
+    "description": "SDK for Airbnb API",
+    "keywords": ["laravel", "airbnb"],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "...",
+    "autoload": {
+        "psr-4": {
+            "Amarkhai\\AirbnbSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrew Markhai",
+            "email": "buk2018irinam@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">= 7.2",
+        "guzzlehttp/guzzle": "*",
+        "ext-json": "*"
+    }
+}
