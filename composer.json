@@ -4,7 +4,7 @@
     "keywords": ["laravel", "airbnb"],
     "type": "library",
     "license": "MIT",
-    "homepage": "...",
+    "homepage": "https://github.com/amarkhai/airbnb-api-php-sdk",
     "autoload": {
         "psr-4": {
             "Amarkhai\\AirbnbSdk\\": "src/"
