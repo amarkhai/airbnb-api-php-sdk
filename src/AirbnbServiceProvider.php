@@ -14,7 +14,7 @@ class AirbnbServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/config/airbnb.php' => config_path('airbnb.php'),
+            __DIR__ . '/../config/airbnb.php' => config_path('airbnb.php'),
         ]);
     }
 }
