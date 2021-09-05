@@ -12,6 +12,11 @@ You can install the package via Composer:
 composer require amarkhai/airbnb-api-php-sdk
 ```
 
+Check if after installing airbnb.php doesn't appear in the config/ directory, run
+```bash
+php artisan vendor:publish --provider="Amarkhai\AirbnbSdk\AirbnbServiceProvider"
+```
+
 ## Config
 
 This is the default content of the config file published at `config/airbnb.php`:
