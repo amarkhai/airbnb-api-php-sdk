@@ -21,7 +21,7 @@ class AirbnbClient extends Client
      * @return \Psr\Http\Message\ResponseInterface
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
-    public function get(string $uri, array $options = []): \Psr\Http\Message\ResponseInterface
+    public function get($uri, array $options = []): \Psr\Http\Message\ResponseInterface
     {
         return $this->query('get', $uri, $options);
     }
@@ -32,7 +32,7 @@ class AirbnbClient extends Client
      * @return \Psr\Http\Message\ResponseInterface
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
-    public function post(string $uri, array $options = []): \Psr\Http\Message\ResponseInterface
+    public function post($uri, array $options = []): \Psr\Http\Message\ResponseInterface
     {
         return $this->query('post', $uri, $options);
     }
@@ -43,7 +43,7 @@ class AirbnbClient extends Client
      * @return \Psr\Http\Message\ResponseInterface
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
-    public function put(string $uri, array $options = []): \Psr\Http\Message\ResponseInterface
+    public function put($uri, array $options = []): \Psr\Http\Message\ResponseInterface
     {
         return $this->query('put', $uri, $options);
     }
@@ -54,7 +54,7 @@ class AirbnbClient extends Client
      * @return \Psr\Http\Message\ResponseInterface
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
-    public function patch(string $uri, array $options = []): \Psr\Http\Message\ResponseInterface
+    public function patch($uri, array $options = []): \Psr\Http\Message\ResponseInterface
     {
         return $this->query('patch', $uri, $options);
     }
@@ -65,7 +65,7 @@ class AirbnbClient extends Client
      * @return \Psr\Http\Message\ResponseInterface
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
-    public function delete(string $uri, array $options = []): \Psr\Http\Message\ResponseInterface
+    public function delete($uri, array $options = []): \Psr\Http\Message\ResponseInterface
     {
         return $this->query('delete', $uri, $options);
     }
