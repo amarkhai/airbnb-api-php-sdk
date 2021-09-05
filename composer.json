@@ -21,5 +21,12 @@
         "illuminate/support": ">=5.5",
         "guzzlehttp/guzzle": "*",
         "ext-json": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amarkhai\\AirbnbSdk\\AirbnbServiceProvider"
+            ]
+        }
     }
 }
