@@ -17,4 +17,12 @@ class AirbnbServiceProvider extends ServiceProvider
             __DIR__ . '/../config/airbnb.php' => config_path('airbnb.php'),
         ]);
     }
+
+    /**
+     * Merge config file if it already exists
+     */
+    public function register()
+    {
+        $this->mergeConfigFrom(__DIR__ . '/../config/airbnb.php', 'airbnb');
+    }
 }
